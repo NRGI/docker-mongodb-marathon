@@ -33,7 +33,7 @@ The host directory `/host/directory` will now be available as `/container/direct
     "type": "DOCKER",
     "docker": {
       "network": "BRIDGE",
-        "image": "tobilg/mongodb-marathon",
+        "image": "nrgi/mongodb-marathon",
         "portMappings": [
           { "containerPort": 3000 },
           { "containerPort": 27017 }
